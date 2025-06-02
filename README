@@ -1,1 +1,6 @@
 All MTA space weather monitoring. ACE, GOES, KP.
+
+As of 2025-06-02, the majority of these monitoring scripts have been converted to python versions located on chandra-mta/Space_Weather.
+As such, this repository is now archived and any development to space weather scripts should be located in the new repository.
+
+To handle edge cases in supporting sapce weather monitoring, this repository may be unarchived. Please consult chandra-mta organization members for more information.
