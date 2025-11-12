@@ -1,0 +1,49 @@
+
+Copying data and plots from NOAA STEREO site
+   #### IT SEEMS STEREO IS DEAD AND NO MORE DATA IS COMING IN (NOTED IN EARLY 2021)
+############################################
+
+update_stereo_data.py   ---- the script to copy data and plots from noaa site and update a web page.
+
+                     http://legacy-www.swpc.noaa.gov/stereo/
+
+                     the following files are used to create the page:
+
+                        Template/
+                            header
+                            imageA
+                            imageB
+                            footer
+Input:
+    ftp://ftp.sec.noaa.gov/pub/lists/stereo/sta_impact_5m.txt
+    ###ftp://ftp.sec.noaa.gov/pub/lists/stereo/stb_impact_5m.txt
+
+Output:
+    /data/mta4/Space_Weather/STEREO/Data/stereoAdata
+    ###/data/mta4/Space_Weather/STEREO/Data/stereoBdata
+
+    /data/mta4/www/RADIATION/STEREO2/
+        stereo.html
+        impact_A_5m_7d.gif
+        ###impact_B_5m_7d.gif
+
+web address:
+------------
+https://cxc.cfa.harvard.edu/mta/RADIATION/STEREO/stereo.html
+
+Note: stereo B is not working any more and we dropped the data from appearing.
+
+
+Cron job:
+---------
+mta on boba-v
+2,6,11,16,21,26,31,36,41,46,51,56 * * * * /data/mta4/Space_Weather/STEREO/Scripts/stereo_wrap_script >> $HOME/Logs/stereo_data_new.cron 2>&1
+
+
+Old Version
+han-v as mta
+
+2,6,11,16,21,26,31,36,41,46,51,56 * * * * /data/mta4/Space_Weather/STEREO/Scripts/stereo_wrap_script > /data/mta4/Space_Weather/Test_Logs/stereo_data.cron 2>&1
+
+
+As of Nov 12 2025 and approval of the FSDS-184 ticket, the MTA STEREO Script set has been marked as deprecated and removed from live running. 

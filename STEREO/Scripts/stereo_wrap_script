@@ -1,0 +1,1 @@
+TERM=dummy; export TERM;/proj/sot/ska3/flight/bin/skare /bin/tcsh  </data/mta4/Space_Weather/STEREO/Scripts/stereo_main_script

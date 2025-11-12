@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>STEREO Impact Observations </title>
+          <!-- Changed by: t. isobe Aug 16, 2018 -->
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        .container pre {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+<body style="width:95%;margin-left:10px; margin-right;10px;background-color:#FAEBD7;font-family:Georgia, "Times New Roman", Times, serif">
+
+<div style='float:right;'>
+<a href="../../sot.html">SOT home page</a>
+<br />
+<a href="../index.html">Radiation Main Page</a>
+</div>
+
+<h2 style='text-align:center;'>REALTIME STEREO IMPACT OBSERVATIONS</h2>
+
+<div  class='container'>
+<pre style='padding-bottom:20px;'>
+

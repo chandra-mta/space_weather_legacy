@@ -1,0 +1,44 @@
+</pre>
+
+<hr>
+
+<div style='float:right;'>
+<a href="../../sot.html">Back to the SOT home page</a>
+<br />
+<a href="../index.html">Back to Radiation Main Page</a>
+</div>
+
+<table border=0 width=50%>
+<tr>
+    <td>
+        <a href="http://www.srl.caltech.edu/ACE/ASC/."> 
+        <img alt="ACE SCIENCE CENTER" SRC="../Logos/asc100x79.gif">
+        <br />
+        ACE SCIENCE CENTER</a>
+    </td>
+    <td>
+        <a href="https://www.swpc.noaa.gov/"> 
+        <img alt="Space Environment Center" SRC="../Logos/ssel.gif">
+        <br />
+        Space Environment Center</a>
+    </td>
+</tr>
+</table>
+
+
+<hr />
+<p style="padding-bottom:30px;">
+    <a href="mailto:swolk@cfa.harvard.edu">Email problems to: swolk</a>
+    (<a href="https://hea-www.harvard.edu/~swolk/">Scott Wolk</a>)
+</p>
+
+<script>
+    setTimeout('location.reload()', 300000)
+</script>
+
+</body>
+<header>
+  <meta HTTp-EQUIV="pragma"  content="no-cache">
+  <meta HTTp-EQUIV="Expires" content="-1">
+</header>
+</html>
