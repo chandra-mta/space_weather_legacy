@@ -1,11 +1,11 @@
 </pre>
-<!--<hr><p>GOES 12 integrated data unavailable</p><br><br>-->
-<!--<CENTER><IMG SRC="http://www.sec.noaa.gov/rt_plots/pro_3d_200311192041.gif"></CENTER>-->
-<CENTER><IMG SRC="http://www.swpc.noaa.gov/rt_plots/SatEnv.gif"></CENTER>
+<CENTER><IMG SRC="./satenvBL.gif"></CENTER>
 <br/>
 <CENTER><IMG SRC="./goes_pro_3d.gif"></CENTER>
 <hr><ul><li> P1 = Protons from 0.8 -   4 MeV units #/cm2-s-sr-MeV (Blue) <li> P2 = Protons from   4 -   9 MeV units #/cm2-s-sr-MeV (Green) <li> P5 = Protons from  40 -  80 MeV units #/cm2-s-sr-MeV (Cyan)</ul>
 <br> The P2 and P5 channels can be approximately scaled to the EPHIN P4GM and P41GM rates. GOES P2 X 3.3 ~ P4GM, GOES P5 X 12 ~ P41GM.<br>Here we show the scaled RADMON limits, P4GM/3.3 and P41GM/12, on the plot.
 <CENTER><IMG SRC="./RADIATION/pgplot.gif"></CENTER>
-<ul><li> <a href="http://www.swpc.noaa.gov/ftpdir/lists/pchan/Gs_pchan_5m.txt">GOES-11 five minute average data.</a><li> <a href="http://www.swpc.noaa.gov/ftpdir/lists/pchan/Gp_pchan_5m.txt">GOES-13 five minute average data.</a><li> <a href="http://www.swpc.noaa.gov/ftpdir/lists/xray/Gp_xr_5m.txt">GOES-14 five minute average data.</a>
+<ul>
+<li> <a href="ftp://ftp.sec.noaa.gov/pub/lists/particle/Gp_part_5m.txt">GOES-13 five minute average data.</a>
+<li> <a href="ftp://ftp.sec.noaa.gov/pub/lists/particle/Gs_part_5m.txt">GOES-15 five minute average data.</a>
 
